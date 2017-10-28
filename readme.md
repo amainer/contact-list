@@ -1,27 +1,41 @@
-## Final Project Due: December 18, 2017
+## Final Project Due: December 15, 2017
 
-## Table of Contents
+## Project Scope
 
-- [Syllabus](syllabus.md)
-- [Resources](resources.md)
-- [Environment Setup](environment.md)
-- [Project Requirements](finalproject.md)
-- Lectures
-  - [01 - The Internet and the Web](/lectures/01-the-internet-and-the-web/README.md)
+Create a web based contact list that is centralized across teams. Query down category and internal user heirarchy from internal data. Combine internal heirarchy with user input to form a centralized location to store and update contacts. For demo day, mock data will be used. Internal data and hooks will be excluded from github, but marked complete on todo list once finished.
 
-1. Item 1
-1. Item 2
-1. Item 3
-  1. Item 3a
-  1. Item 3b
+###Tools utilized:
 
-  1. Item 1
-  1. Item 2
-  1. Item 3
-     1. Item 3a
-     1. Item 3b
+- Backend: SQL Server
+- Front End: Angular (Not required for backend certificate)
+- Hosting service: Internal Company Server
 
-### Requirements
+##Todo List:
+
+  - [] Data buckets:
+    - [] Queryable from internal data (internal heirarchy):
+      - [] Dept#
+      - [] 9 digit vendor record
+      - [] Vendor name
+      - [] Category nbr
+      - [] Category name
+      - [] Manager alignment
+      - [] Vendor System status (0,1,2)
+      - [] 18 week out store count (to identify new vendors)
+    - [] User input (Potentially create form)
+      - [] First name
+      - [] Last name
+      - [] Email
+      - [] Phone#
+      - [] Job alignment (be able to select multiple)
+      - [] Comments
+  - [] Research Front End Design if time allows
+  - [] Build Hooks and scheduled task upload from internal system to SQL Server
+  - [] Build Routes w/o front end component
+  - [] Build postman examples
+  - [] Build unit tests
+
+### Requirements (Reference to Class Notes )
 
 - Has an API component
 - Provide Postman examples
@@ -37,4 +51,3 @@
   - Bad: `backend-development-final-project`
 - Do not use any sort of templating engine or project generator
 - Include a set of queries created in Postman that demonstrate all routes
--hello world
