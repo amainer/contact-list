@@ -4,36 +4,36 @@
 
 Create a web based contact list that is centralized across teams. Query down category and internal user heirarchy from internal data. Combine internal heirarchy with user input to form a centralized location to store and update contacts. For demo day, mock data will be used. Internal data and hooks will be excluded from github, but marked complete on todo list once finished.
 
-###Tools utilized:
+### Tools utilized:
 
 - Backend: SQL Server
 - Front End: Angular (Not required for backend certificate)
 - Hosting service: Internal Company Server
 
-##Todo List:
+## Todo List:
 
-  - [] Data buckets:
-    - [] Queryable from internal data (internal heirarchy):
-      - [] Dept#
-      - [] 9 digit vendor record
-      - [] Vendor name
-      - [] Category nbr
-      - [] Category name
-      - [] Manager alignment
-      - [] Vendor System status (0,1,2)
-      - [] 18 week out store count (to identify new vendors)
-    - [] User input (Potentially create form)
-      - [] First name
-      - [] Last name
-      - [] Email
-      - [] Phone#
-      - [] Job alignment (be able to select multiple)
-      - [] Comments
-  - [] Research Front End Design if time allows
-  - [] Build Hooks and scheduled task upload from internal system to SQL Server
-  - [] Build Routes w/o front end component
-  - [] Build postman examples
-  - [] Build unit tests
+  - [ ] Data buckets:
+    - [ ] Queryable from internal data (internal heirarchy):
+      - [ ] Dept#
+      - [ ] 9 digit vendor record
+      - [ ] Vendor name
+      - [ ] Category nbr
+      - [ ] Category name
+      - [ ] Manager alignment
+      - [ ] Vendor System status (0,1,2)
+      - [ ] 18 week out store count (to identify new vendors)
+    - [ ] User input (Potentially create form)
+      - [ ] First name
+      - [ ] Last name
+      - [ ] Email
+      - [ ] Phone#
+      - [ ] Job alignment (be able to select multiple)
+      - [ ] Comments
+  - [ ] Research Front End Design if time allows
+  - [ ] Build Hooks and scheduled task upload from internal system to SQL Server
+  - [ ] Build Routes w/o front end component
+  - [ ] Build postman examples
+  - [ ] Build unit tests
 
 ### Requirements (Reference to Class Notes )
 
