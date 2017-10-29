@@ -12,7 +12,7 @@ Create a web based contact list that is centralized across teams. Query down cat
 
 ## Todo List:
 
-  - [ ] Data buckets:
+  - [ ] Setup database:
     - [ ] Queryable from internal data (internal heirarchy):
       - [ ] Dept#
       - [ ] 9 digit vendor record
