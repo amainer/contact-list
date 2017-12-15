@@ -2,37 +2,36 @@
 
 ## Project Scope
 
-Create a web based contact list that is centralized across teams. Query down category and internal user heirarchy from internal data. Combine internal heirarchy with user input to form a centralized location to store and update contacts. For demo day, mock data will be used. Internal data and hooks will be excluded from github, but marked complete on todo list once finished.
+Create a web based contact list that is centralized across teams. Query down category and internal user heirarchy from internal data. Combine internal heirarchy with user input to form a centralized location to store and update contacts. For demo day, mock data will be used. Internal data and hooks will be excluded from github.
 
 ### Tools utilized:
 
-- Backend: SQL Server
-- Front End: Angular (Not required for backend certificate)
-- Hosting service: Internal Company Server
+- Backend: mongodb
+- Front End: Angular -- not completed
+- Hosting service: -- gcloud for demo purpose
 
 ## Todo List:
 
-  - [ ] Setup database:
-    - [ ] Queryable from internal data (internal heirarchy):
-      - [ ] Dept#
-      - [ ] 9 digit vendor record
-      - [ ] Vendor name
-      - [ ] Category nbr
-      - [ ] Category name
-      - [ ] Manager alignment
-      - [ ] Vendor System status (0,1,2)
-      - [ ] 18 week out store count (to identify new vendors)
-    - [ ] User input (Potentially create form)
-      - [ ] First name
-      - [ ] Last name
-      - [ ] Email
-      - [ ] Phone#
+  - [x] Hosted on gcloud -- https://contact-list-demo.appspot.com
+  - [x] Setup database:
+    - [x] Queryable from internal data (internal heirarchy):
+      - [x] Dept#
+      - [x] 9 digit vendor record
+      - [x] Vendor name
+      - [x] Category nbr
+      - [x] Category name
+      - [x] Manager alignment)
+    - [x] User input (Create form for team use)
+      - [x] First name
+      - [x] Last name
+      - [x] Email
+      - [x] Phone#
       - [ ] Job alignment (be able to select multiple)
       - [ ] Comments
   - [ ] Research Front End Design if time allows
-  - [ ] Build Hooks and scheduled task upload from internal system to SQL Server
-  - [ ] Build Routes w/o front end component
-  - [ ] Build postman examples
+  - [ ] Build Hooks and schedule task upload from internal system to database
+  - [x] Build Routes w/o front end component
+  - [x] Build postman examples
   - [ ] Build unit tests
 
 ### Requirements (Reference to Class Notes )
