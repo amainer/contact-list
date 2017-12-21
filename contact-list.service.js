@@ -112,8 +112,6 @@ function saveVendor(vendorToSave) {
 function updateContact(contactToUpdate) {
  return Contact.findById(contactToUpdate._id)
  .then((contactFetched) => {
-
-   contactFetched.title = contactToUpdate.title;
    contactFetched.firstName = contactToUpdate.firstName;
    contactFetched.lastName = contactToUpdate.lastName;
    contactFetched.email = contactToUpdate.email;
