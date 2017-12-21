@@ -32,7 +32,7 @@ Create a web based contact list that is centralized across teams. Query down cat
   - [ ] Build Hooks and schedule task upload from internal system to database
   - [x] Build Routes w/o front end component
   - [x] Build postman examples
-  - [ ] Build unit tests
+  - [x] Build unit tests
 
 ### Requirements (Reference to Class Notes )
 
